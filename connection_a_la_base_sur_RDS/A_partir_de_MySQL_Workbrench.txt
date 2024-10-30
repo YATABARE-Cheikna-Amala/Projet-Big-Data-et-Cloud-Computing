@@ -1,0 +1,27 @@
+Pour vous connecter via MySQL Workbrench, la procedure à suivre est la suivante:
+
+Prèalablement vous devez obtenir des droits d'accès via votre IPV4 à la base de donnée sur RDS.
+
+Une fois cette étape depassée:
+
+Aller dans MySQL Workbrench connection, créer une nouvelle connection avec l'onglet +
+
+Une fois que l'interface s'ouvre;
+
+-----Donner un nom à votre projet: par exemple cours BDCC
+
+-----Connection method: Standard(TCP/IP)
+
+-----Hostname:database-1.cfgaa6gqqsvm.eu-west-3.rds.amazonaws.com
+
+-----Port:3306 car nous utilisons une base de donnée MySQL
+
+-----Username:admin
+
+-----password (en appuyant sur store in vault): loufpass
+
+Et vous pouvez tester la connection.
+
+Si la connection passe, vous aurez une notification qui permet d'accepter de reussite.
+
+Vous pouvez utiliser la base de donnée directement via MySQL Workbrench.

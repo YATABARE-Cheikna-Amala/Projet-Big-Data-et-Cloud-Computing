@@ -1,0 +1,18 @@
+Pour vous connecter via PhpMyAdmin:
+
+-Telecharger d'abord adminer.php (deja telecharger, voir document(connection_à_la_base_sur_RDS) et inserer le dans le ficher htdocs de XAMPP.
+
+- Lancer le serveur Apache et MySQL à partir de XAMPP
+
+- taper sur microsoft edge: localhost/adminer.php/
+
+-Via l'interface de adminer.php
+
+Mettre les informations de la base que sont:
+-------System: MySQL
+-------Host:database-1.cfgaa6gqqsvm.eu-west-3.rds.amazonaws.com
+-------Username:admin
+-------Password:loufpass
+-------Database:Laplace_Immo. 
+
+Normalement, avec cette procedure vous aurez accès à la base de donnée et pourrez excecutez vos requètes.
